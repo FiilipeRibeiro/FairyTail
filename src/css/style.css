@@ -58,9 +58,10 @@ main .personagem .imagem {
 
 .conteudo .logo {
   background-image: url("../imagens/fairy-tail.png");
-  background-size: cover;
+  background-size: contain;
+  background-repeat: no-repeat;
   height: 110px;
-  width: 300px;
+  width: 310px;
   margin-bottom: 40px;
 }
 

@@ -1,4 +1,38 @@
+@media (max-width: 1458px) {
+  main::after {
+    width: 100vw;
+  }
+}
+
+@media (max-width: 1522px) {
+  main .personagem .imagem.grande {
+    position: absolute;
+    top: 0;
+    height: 150%;
+    width: 200%;
+    transform: translate(-40%, -20%);
+  }
+}
+
+@media (max-width: 1269px) {
+  main .personagem .imagem.grande {
+    position: absolute;
+    top: 0;
+    height: 150%;
+    width: auto;
+    transform: translate(-40%, -20%);
+  }
+}
+
 @media (max-width: 1024px) {
+  main .personagem .imagem.grande {
+    position: absolute;
+    top: 0;
+    height: 150%;
+    width: auto;
+    transform: translate(-50%, -20%);
+  }
+
   main::after {
     width: 100vw;
   }
@@ -31,7 +65,7 @@
   }
 
   .conteudo .logo {
-    margin-bottom: 90%;
+    margin-bottom: 50%;
   }
 
   .conteudo .nome-personagem {
@@ -54,7 +88,54 @@
   }
 }
 
+@media (max-width: 733px) {
+  main .personagem .imagem.grande {
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: auto;
+    transform: translate(-40%, -20%);
+  }
+}
+
+@media (max-width: 594px) {
+  .botoes .botao img {
+    max-width: 80px;
+  }
+
+  main .personagem .imagem.grande {
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: auto;
+    transform: translate(-50%, -10%);
+  }
+
+  .conteudo .logo {
+    background-image: url("../imagens/fairy-tail.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 110px;
+    width: 200px;
+    margin-bottom: 40px;
+  }
+}
+
+@media (max-width: 496px) {
+  .botoes .botao img {
+    max-width: 65px;
+  }
+}
+
 @media (max-width: 425px) {
+  main .personagem .imagem.grande {
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: auto;
+    transform: translate(-50%, -10%);
+  }
+
   .conteudo .logo {
     margin-bottom: 10%;
   }
@@ -73,12 +154,26 @@
   }
 
   .botoes .botao img {
-    max-width: 68px;
+    max-width: 60px;
   }
 }
 
 @media (max-width: 393px) {
   .botoes .botao img {
     max-width: 50px;
+  }
+}
+
+@media (max-width: 375px) {
+  main .personagem .imagem.grande {
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: auto;
+    transform: translate(-60%, -10%);
+  }
+
+  main .conteudo {
+    min-height: 111vh;
   }
 }
