@@ -1,5 +1,6 @@
 # FairyTail
-Projeto front-end usando meu anime favorito Fairy Tail
+Projeto front-end usando meu anime favorito Fairy Tail 
+https://fiiliperibeiro.github.io/FairyTail/
 
 # Ferramentas:
 
